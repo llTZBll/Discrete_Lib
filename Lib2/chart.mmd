@@ -1,0 +1,14 @@
+graph TD
+    A[开始] --> B[输入n及关系矩阵]
+    B --> C[check_relations函数<br>判断关系性质]
+    B --> D[reflexive_closure函数<br>计算自反闭包]
+    B --> E[symmetric_closure函数<br>计算对称闭包]
+    B --> F[warshall_algorithm函数<br>计算传递闭包]
+    C --> G[输出关系性质结果]
+    D --> H[输出自反闭包结果]
+    E --> I[输出对称闭包结果]
+    F --> J[输出传递闭包结果]
+    G --> K[结束]
+    H --> K
+    I --> K
+    J --> K
